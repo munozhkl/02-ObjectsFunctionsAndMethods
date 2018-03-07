@@ -1287,8 +1287,9 @@ class Point(_Shape, _ShapeWithOutline):
                 'outline_color': 'black',
                 'outline_thickness': 1}
 
-    def __init__(self, x, y):
+    def __init__(self, x: object, y: object) -> object:
         """
+          :rtype: 
           :type  x:  float
           :type  y:  float
         """
