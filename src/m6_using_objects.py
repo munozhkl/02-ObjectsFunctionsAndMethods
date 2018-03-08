@@ -143,7 +143,7 @@ def lines():
     line1.thickness = 5
     start2 = rg.Point(50, 80)
     end2 = rg.Point(250, 30)
-    line2 = rg.Point(start2, end2)
+    line2 = rg.Line(start2, end2)
     midpoint1 = line1.get_midpoint()
     line1.attach_to(window)
     line2.attach_to(window)
@@ -153,7 +153,7 @@ def lines():
     window.render()
     window.close_on_mouse_click()
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     # -------------------------------------------------------------------------
 
 
